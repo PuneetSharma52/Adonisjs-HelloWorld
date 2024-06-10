@@ -1,0 +1,5 @@
+console.log('Hello this is Puneet Sharma ')
+console.log('In this project, ')
+console.log('I am going to learn basics of adonis js ')
+console.log('Adonis js is basically used for implementing web servers and routing ')
+console.log('Adonis Js is a special framework of Node js ')
