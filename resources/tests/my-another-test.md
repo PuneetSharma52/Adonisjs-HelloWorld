@@ -1,6 +1,10 @@
-<h1>My Another Test</h1>
+---
+title: My Another Test
+summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+---
 
-<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     Autem, suscipit! Ipsam perspiciatis illo distinctio ratione! 
     Nesciunt pariatur quas dolores doloribus magni, aliquid maxime 
     iste dolore? Beatae incidunt eum nostrum accusamus?
@@ -8,4 +12,3 @@
     Autem, suscipit! Ipsam perspiciatis illo distinctio ratione! 
     Nesciunt pariatur quas dolores doloribus magni, aliquid maxime 
     iste dolore? Beatae incidunt eum nostrum accusamus?
-</p>

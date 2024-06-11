@@ -8,20 +8,23 @@
   @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-  <nav>
-    <a href="{{ route('home') }}">Home</a>
-    <a href="{{ route('test.show', {slug: 'my-first-test'}) }}">
-      My First Test
-    </a>
-    <a href="{{ route('test.show', {slug: 'my-another-test'}) }}">
-      My Another Test
-    </a>
-    <a href="{{ route('test.show', {slug: 'regression-test'}) }}">
-      Regression Test
-    </a>
-  </nav>
-  {{-- We can use this object also to render view for a route --}}
-  {{{ test }}} 
-  {{-- <h1> This is a test page </h1> --}}
+    <div class="max-w-3xl mx-auto mt-6">
+    <nav>
+      <a href="{{ route('home') }}">Home</a>
+      <a href="{{ route('test.show', {slug: 'my-first-test'}) }}">
+        My First Test
+      </a>
+      <a href="{{ route('test.show', {slug: 'my-another-test'}) }}">
+        My Another Test
+      </a>
+      <a href="{{ route('test.show', {slug: 'regression-test'}) }}">
+        Regression Test
+      </a>
+    </nav>
+    <h1>{{ md.frontmatter.title }}</h1>
+    {{-- We can use this object also to render view for a route --}}
+    {{{ test }}} 
+    {{-- <h1> This is a test page </h1> --}}
+  </div>
 </body>
 </html>
